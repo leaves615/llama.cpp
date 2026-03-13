@@ -884,9 +884,9 @@ jobs:
       - ubuntu-22-cpu
       - ubuntu-22-vulkan
       - macOS-arm64
-      - macOS-x64
+      # - macOS-x64
       - ios-xcode-build
-      - openEuler-cann
+      # - openEuler-cann
 
     steps:
       - name: Clone
